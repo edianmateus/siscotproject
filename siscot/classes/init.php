@@ -7,11 +7,11 @@
     $URL_ATUAL = str_replace("lista.php", "", $URL_ATUAL); 
 
     if($existe === false){
-        define('DB_HOST', 'localhost');
-        define('DB_PORT', '35795');
-        define('DB_USER', 'system');
-        define('DB_PASS', 'AM^ym#Iw3ccF');
-        define('DB_NAME', 'siscot');  
+        define('DB_HOST', '');
+        define('DB_PORT', '');
+        define('DB_USER', '');
+        define('DB_PASS', '');
+        define('DB_NAME', '');  
         ini_set('display_errors', true);
     }else{
         define('DB_HOST', 'localhost');
